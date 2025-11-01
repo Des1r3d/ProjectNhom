@@ -56,10 +56,20 @@ class Ui_MainWindow(object):
 "")
         self.push.setObjectName("push")
         self.kq = QtWidgets.QLabel(parent=self.centralwidget)
-        self.kq.setGeometry(QtCore.QRect(350, 200, 91, 81))
+        self.kq.setGeometry(QtCore.QRect(340, 190, 101, 101))
         font = QtGui.QFont()
-        font.setPointSize(72)
+        font.setFamily("Segoe UI")
+        font.setPointSize(90)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
         self.kq.setFont(font)
+        self.kq.setStyleSheet("font: 90pt \"Segoe UI\"; \n"
+"font-weight: bold; \n"
+"text-align: center; \n"
+"color: #007BFF; \n"
+"border: none;\n"
+"background-color: transparent;")
         self.kq.setText("")
         self.kq.setObjectName("kq")
         MainWindow.setCentralWidget(self.centralwidget)
