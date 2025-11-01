@@ -8,8 +8,8 @@ def tungxucxac(socham):
     #random số chạy từ index 0 đến index 5
     so= random.randint(0,5)
     #trả lại giá trị đã được random trong danh sách socham
-    kq = int(socham[so])
+    kq = socham[so]
     return kq
 
 if __name__ == '__main__':
-    print(type(tungxucxac(socham)))
+    print(tungxucxac(socham))

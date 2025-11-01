@@ -15,20 +15,64 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.btngieo = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.btngieo.setGeometry(QtCore.QRect(310, 230, 75, 23))
-        self.btngieo.setObjectName("btngieo")
-        self.lnketqua = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lnketqua.setGeometry(QtCore.QRect(310, 300, 113, 20))
-        self.lnketqua.setObjectName("lnketqua")
+        self.label2 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label2.setGeometry(QtCore.QRect(240, 340, 331, 31))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(18)
+        self.label2.setFont(font)
+        self.label2.setObjectName("label2")
+        self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(120, 90, 551, 71))
+        font = QtGui.QFont()
+        font.setPointSize(31)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setStyleSheet("font-weight: bold")
+        self.label_2.setObjectName("label_2")
+        self.number = QtWidgets.QLabel(parent=self.centralwidget)
+        self.number.setGeometry(QtCore.QRect(320, 170, 141, 141))
+        self.number.setStyleSheet(" background-color: #FFFFFF;\n"
+"    border: 8px solid #3B82F6;\n"
+"    border-radius: 20px;\n"
+"    text-align: center;\n"
+"    font-size: 25pt;\n"
+"    font-weight: bold; \n"
+"    color: #3B82F6;")
+        self.number.setText("")
+        self.number.setObjectName("number")
+        self.push = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.push.setGeometry(QtCore.QRect(250, 380, 281, 51))
+        self.push.setStyleSheet("\n"
+"    background-color: #4F46E5; \n"
+"    color: white; \n"
+"    font-size: 16pt;\n"
+"    font-weight: bold;\n"
+"    border: none;\n"
+"    border-radius: 10px;\n"
+"    padding: 10px 20px; \n"
+"    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); \n"
+"")
+        self.push.setObjectName("push")
+        self.kq = QtWidgets.QLabel(parent=self.centralwidget)
+        self.kq.setGeometry(QtCore.QRect(360, 200, 91, 81))
+        font = QtGui.QFont()
+        font.setPointSize(72)
+        self.kq.setFont(font)
+        self.kq.setText("")
+        self.kq.setObjectName("kq")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
         self.menubar.setObjectName("menubar")
+        self.menuTungxucxac = QtWidgets.QMenu(parent=self.menubar)
+        self.menuTungxucxac.setObjectName("menuTungxucxac")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        self.menubar.addAction(self.menuTungxucxac.menuAction())
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -36,4 +80,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.btngieo.setText(_translate("MainWindow", "PushButton"))
+        self.label2.setText(_translate("MainWindow", "Nhấn vào nút để tung xúc xắc"))
+        self.label_2.setText(_translate("MainWindow", "TRÒ CHƠI TUNG XÚC XẮC"))
+        self.push.setText(_translate("MainWindow", "TUNG XÚC XẮC"))
+        self.menuTungxucxac.setTitle(_translate("MainWindow", "Tungxucxac"))
