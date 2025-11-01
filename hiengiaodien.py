@@ -1,6 +1,6 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow
-from GUItest import Ui_MainWindow
+from giaodien import Ui_MainWindow
 from xuly import *
 
 
