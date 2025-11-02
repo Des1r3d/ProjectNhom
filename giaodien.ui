@@ -111,7 +111,7 @@
    <widget class="QLabel" name="kq">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>360</x>
       <y>190</y>
       <width>101</width>
       <height>101</height>
@@ -132,7 +132,8 @@ font-weight: bold;
 text-align: center; 
 color: #007BFF; 
 border: none;
-background-color: transparent;</string>
+background-color: transparent;
+vertical-align: middle</string>
     </property>
     <property name="text">
      <string/>
