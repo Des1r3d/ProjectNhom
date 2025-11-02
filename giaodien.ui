@@ -29,6 +29,10 @@
       <pointsize>18</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true"> text-align: center;
+</string>
+    </property>
     <property name="text">
      <string>Nhấn vào nút để tung xúc xắc</string>
     </property>
@@ -50,7 +54,8 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">font-weight: bold</string>
+     <string notr="true">font-weight: bold;
+ text-align: center;</string>
     </property>
     <property name="text">
      <string>TRÒ CHƠI TUNG XÚC XẮC</string>
@@ -97,7 +102,7 @@
     border-radius: 10px;
     padding: 10px 20px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-</string>
+ text-align: center;</string>
     </property>
     <property name="text">
      <string>TUNG XÚC XẮC</string>
