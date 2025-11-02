@@ -1,7 +1,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow
 from giaodien import Ui_MainWindow
-from xuly import *
+from xuly import tungxucxac, socham
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):   # lấy thông tin của Qmainwindow và Ui_MainWindow nhập vào class MainWindow
