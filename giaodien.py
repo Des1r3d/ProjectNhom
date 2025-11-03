@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'giaodien.ui'
+# Form implementation generated from reading ui file 'C:\Users\jimmy\PycharmProjects\ProjectNhom\giaodien.ui'
 #
 # Created by: PyQt6 UI code generator 6.9.1
 #
@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label2 = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label2.setGeometry(QtCore.QRect(270, 360, 241, 31))
+        self.label2.setGeometry(QtCore.QRect(210, 340, 401, 31))
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setPointSize(18)
@@ -25,7 +25,7 @@ class Ui_MainWindow(object):
 "")
         self.label2.setObjectName("label2")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(200, 50, 391, 71))
+        self.label_2.setGeometry(QtCore.QRect(70, 60, 711, 71))
         font = QtGui.QFont()
         font.setPointSize(31)
         font.setBold(True)
@@ -46,7 +46,7 @@ class Ui_MainWindow(object):
         self.number.setText("")
         self.number.setObjectName("number")
         self.push = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.push.setGeometry(QtCore.QRect(250, 410, 281, 51))
+        self.push.setGeometry(QtCore.QRect(240, 390, 281, 51))
         self.push.setStyleSheet("\n"
 "    background-color: #4F46E5; \n"
 "    color: white; \n"
@@ -78,7 +78,7 @@ class Ui_MainWindow(object):
         self.kq.setObjectName("kq")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 24))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
         self.menubar.setObjectName("menubar")
         self.menuTungxucxac = QtWidgets.QMenu(parent=self.menubar)
         self.menuTungxucxac.setObjectName("menuTungxucxac")
@@ -98,13 +98,3 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "TRÒ CHƠI TUNG XÚC XẮC"))
         self.push.setText(_translate("MainWindow", "TUNG XÚC XẮC"))
         self.menuTungxucxac.setTitle(_translate("MainWindow", "Tungxucxac"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec())

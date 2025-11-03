@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label2">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>360</y>
-      <width>241</width>
+      <x>210</x>
+      <y>340</y>
+      <width>401</width>
       <height>31</height>
      </rect>
     </property>
@@ -40,9 +40,9 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>50</y>
-      <width>391</width>
+      <x>70</x>
+      <y>60</y>
+      <width>711</width>
       <height>71</height>
      </rect>
     </property>
@@ -86,8 +86,8 @@
    <widget class="QPushButton" name="push">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>410</y>
+      <x>240</x>
+      <y>390</y>
       <width>281</width>
       <height>51</height>
      </rect>
@@ -146,7 +146,7 @@ vertical-align: middle</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>24</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuTungxucxac">
