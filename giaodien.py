@@ -25,7 +25,7 @@ class Ui_MainWindow(object):
 "")
         self.label2.setObjectName("label2")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(70, 60, 711, 71))
+        self.label_2.setGeometry(QtCore.QRect(110, 60, 711, 71))
         font = QtGui.QFont()
         font.setPointSize(31)
         font.setBold(True)
