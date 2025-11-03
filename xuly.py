@@ -22,7 +22,7 @@ def xu_ly_cuoc(current_balance, bet_amount, min_bet):
     if bet_amount > current_balance:
         return {
             "new_balance": current_balance,
-            "message": "Không đủ tiền cược! Vui lòng cược ít hơn.",
+            "message": "Nghèo quá bạn hiền",
             "rolls": (None, None),  # Không tung xúc xắc
             "is_bankrupt": False,
             "game_played": False
@@ -36,21 +36,18 @@ def xu_ly_cuoc(current_balance, bet_amount, min_bet):
     is_double = so_sanh(roll_1, roll_2)
     message = ""
     is_bankrupt = False
-
     if is_double:
         # Thắng!
         winnings = bet_amount * 2  # Thắng x2 tiền cược
         new_balance += winnings
-        message = f" Bạn thắng {winnings:,.0f} $ (Đôi {roll_1})"
+        message = f" thắng rồi fen {winnings:,.0f} $"
     else:
         # Thua!
-        message = f"Bạn thua {bet_amount:,.0f} $"
-
-    # 5. Kiểm tra phá sản
+        message = f"thua mất rồi, Ahihi đồ ngốc {bet_amount:,.0f} $"
+    # 5. hết tiền rầu
     if new_balance < min_bet:
-        message = "HẾT TIỀN! Bạn đã phá sản."
+        message = "Hết tiền rầu, nghỉ đi ba"
         is_bankrupt = True
-
     # 6. Trả về kết quả
     return {
         "new_balance": new_balance,
@@ -59,9 +56,7 @@ def xu_ly_cuoc(current_balance, bet_amount, min_bet):
         "is_bankrupt": is_bankrupt,
         "game_played": True
     }
-
-
-# Phần kiểm tra lỗi phần mềm
+# Phần kiểm tra lỗi xử lý
 if __name__ == '__main__':
     # Kiểm tra hàm xu_ly_cuoc
     balance = 1000
@@ -82,4 +77,3 @@ if __name__ == '__main__':
         print(result)
     else:
         print("Test phá sản (thắng, không phá sản):", result)
-

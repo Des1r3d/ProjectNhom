@@ -1,8 +1,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow
 from giaodien import Ui_MainWindow
-# Import logic xử lý, bao gồm hàm mới
-from xuly import xu_ly_cuoc
+from xuly import *
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):
