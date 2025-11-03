@@ -35,7 +35,7 @@ class Ui_MainWindow(object):
 " text-align: center;")
         self.label_2.setObjectName("label_2")
         self.number = QtWidgets.QLabel(parent=self.centralwidget)
-        self.number.setGeometry(QtCore.QRect(320, 170, 141, 141))
+        self.number.setGeometry(QtCore.QRect(230, 170, 141, 141))
         self.number.setStyleSheet(" background-color: #FFFFFF;\n"
 "    border: 8px solid #3B82F6;\n"
 "    border-radius: 20px;\n"
@@ -59,7 +59,7 @@ class Ui_MainWindow(object):
 " text-align: center;")
         self.push.setObjectName("push")
         self.kq = QtWidgets.QLabel(parent=self.centralwidget)
-        self.kq.setGeometry(QtCore.QRect(360, 190, 101, 101))
+        self.kq.setGeometry(QtCore.QRect(270, 190, 101, 101))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(90)
@@ -76,6 +76,35 @@ class Ui_MainWindow(object):
 "vertical-align: middle")
         self.kq.setText("")
         self.kq.setObjectName("kq")
+        self.kq_2 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.kq_2.setGeometry(QtCore.QRect(470, 190, 101, 101))
+        font = QtGui.QFont()
+        font.setFamily("Segoe UI")
+        font.setPointSize(90)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
+        self.kq_2.setFont(font)
+        self.kq_2.setStyleSheet("font: 90pt \"Segoe UI\"; \n"
+"font-weight: bold; \n"
+"text-align: center; \n"
+"color: #007BFF; \n"
+"border: none;\n"
+"background-color: transparent;\n"
+"vertical-align: middle")
+        self.kq_2.setText("")
+        self.kq_2.setObjectName("kq_2")
+        self.number_2 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.number_2.setGeometry(QtCore.QRect(430, 170, 141, 141))
+        self.number_2.setStyleSheet(" background-color: #FFFFFF;\n"
+"    border: 8px solid #3B82F6;\n"
+"    border-radius: 20px;\n"
+"    text-align: center;\n"
+"    font-size: 25pt;\n"
+"    font-weight: bold; \n"
+"    color: #3B82F6;")
+        self.number_2.setText("")
+        self.number_2.setObjectName("number_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
