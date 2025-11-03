@@ -12,4 +12,9 @@ def tungxucxac(socham):
     return kq
 
 if __name__ == '__main__':
-    print(tungxucxac(socham))
+    print(tungxucxac(socham)) # Phần để kiểm tra lỗi phần mềm
+
+
+
+
+
