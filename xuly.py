@@ -13,7 +13,7 @@ def tungxucxac(socham):
 
 if __name__ == '__main__':
     print(tungxucxac(socham)) # Phần để kiểm tra lỗi phần mềm
-
+    print(tungxucxac2(socham))
 
 
 

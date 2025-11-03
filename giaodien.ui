@@ -64,7 +64,7 @@
    <widget class="QLabel" name="number">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>230</x>
       <y>170</y>
       <width>141</width>
       <height>141</height>
@@ -111,7 +111,7 @@
    <widget class="QLabel" name="kq">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>270</x>
       <y>190</y>
       <width>101</width>
       <height>101</height>
@@ -134,6 +134,59 @@ color: #007BFF;
 border: none;
 background-color: transparent;
 vertical-align: middle</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kq_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>190</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>90</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 90pt &quot;Segoe UI&quot;; 
+font-weight: bold; 
+text-align: center; 
+color: #007BFF; 
+border: none;
+background-color: transparent;
+vertical-align: middle</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="number_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>170</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: #FFFFFF;
+    border: 8px solid #3B82F6;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold; 
+    color: #3B82F6;</string>
     </property>
     <property name="text">
      <string/>
