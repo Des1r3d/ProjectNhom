@@ -40,13 +40,13 @@ def xu_ly_cuoc(current_balance, bet_amount, min_bet):
         # Thắng!
         winnings = bet_amount * 2  # Thắng x2 tiền cược
         new_balance += winnings
-        message = f" thắng rồi fen {winnings:,.0f} $"
+        message = f"xin chúc mừng, bạn đã lụm được {winnings:,.0f} $"
     else:
         # Thua!
-        message = f"thua mất rồi, Ahihi đồ ngốc {bet_amount:,.0f} $"
+        message = f"thật đáng tiếc, bạn đã bị lụm mất {bet_amount:,.0f} $"
     # 5. hết tiền rầu
     if new_balance < min_bet:
-        message = "Hết tiền rầu, nghỉ đi ba"
+        message = "Hết tiền mất rồi, hẹn bạn lần sau"
         is_bankrupt = True
     # 6. Trả về kết quả
     return {
