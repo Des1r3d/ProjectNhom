@@ -59,44 +59,44 @@ class Ui_MainWindow(object):
                                 "    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); \n"
                                 " text-align: center;")
         self.push.setObjectName("push")
-        self.kq = QtWidgets.QLabel(parent=self.centralwidget)
-        self.kq.setGeometry(QtCore.QRect(270, 190, 101, 101))
+        self.kqtungxucxac = QtWidgets.QLabel(parent=self.centralwidget)
+        self.kqtungxucxac.setGeometry(QtCore.QRect(270, 190, 101, 101))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(90)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
-        self.kq.setFont(font)
-        self.kq.setStyleSheet("font: 90pt \"Segoe UI\"; \n"
+        self.kqtungxucxac.setFont(font)
+        self.kqtungxucxac.setStyleSheet("font: 90pt \"Segoe UI\"; \n"
                               "font-weight: bold; \n"
                               "text-align: center; \n"
                               "color: #007BFF; \n"
                               "border: none;\n"
                               "background-color: transparent;\n"
                               "vertical-align: middle")
-        self.kq.setText("")
-        self.kq.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.kq.setObjectName("kq")
-        self.kq_2 = QtWidgets.QLabel(parent=self.centralwidget)
-        self.kq_2.setGeometry(QtCore.QRect(470, 190, 101, 101))
+        self.kqtungxucxac.setText("")
+        self.kqtungxucxac.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.kqtungxucxac.setObjectName("kqtungxucxac")
+        self.kqtungxucxac_2 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.kqtungxucxac_2.setGeometry(QtCore.QRect(470, 190, 101, 101))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(90)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
-        self.kq_2.setFont(font)
-        self.kq_2.setStyleSheet("font: 90pt \"Segoe UI\"; \n"
+        self.kqtungxucxac_2.setFont(font)
+        self.kqtungxucxac_2.setStyleSheet("font: 90pt \"Segoe UI\"; \n"
                                 "font-weight: bold; \n"
                                 "text-align: center; \n"
                                 "color: #007BFF; \n"
                                 "border: none;\n"
                                 "background-color: transparent;\n"
                                 "vertical-align: middle")
-        self.kq_2.setText("")
-        self.kq_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.kq_2.setObjectName("kq_2")
+        self.kqtungxucxac_2.setText("")
+        self.kqtungxucxac_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.kqtungxucxac_2.setObjectName("kqtungxucxac_2")
         self.number_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.number_2.setGeometry(QtCore.QRect(430, 170, 141, 141))
         self.number_2.setStyleSheet(" background-color: #FFFFFF;\n"
@@ -110,24 +110,24 @@ class Ui_MainWindow(object):
         self.number_2.setObjectName("number_2")
 
         # === WIDGET CÁ CƯỢC MỚI ===
-        self.label_balance_text = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label_balance_text.setGeometry(QtCore.QRect(260, 460, 101, 31))
+        self.label_sodu_text = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_sodu_text.setGeometry(QtCore.QRect(260, 460, 101, 31))
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setPointSize(14)
         font.setBold(True)
-        self.label_balance_text.setFont(font)
-        self.label_balance_text.setObjectName("label_balance_text")
+        self.label_sodu_text.setFont(font)
+        self.label_sodu_text.setObjectName("label_sodu_text")
 
-        self.label_balance_value = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label_balance_value.setGeometry(QtCore.QRect(370, 460, 171, 31))
+        self.label_sodu_value = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_sodu_value.setGeometry(QtCore.QRect(370, 460, 171, 31))
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setPointSize(14)
         font.setBold(True)
-        self.label_balance_value.setFont(font)
-        self.label_balance_value.setStyleSheet("color: #16A34A;")
-        self.label_balance_value.setObjectName("label_balance_value")
+        self.label_sodu_value.setFont(font)
+        self.label_sodu_value.setStyleSheet("color: #16A34A;")
+        self.label_sodu_value.setObjectName("label_sodu_value")
 
         self.label_bet_text = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_bet_text.setGeometry(QtCore.QRect(260, 500, 101, 31))
@@ -159,8 +159,8 @@ class Ui_MainWindow(object):
         # Nâng các label kết quả lên
         self.number.raise_()
         self.number_2.raise_()
-        self.kq.raise_()
-        self.kq_2.raise_()
+        self.kqtungxucxac.raise_()
+        self.kqtungxucxac_2.raise_()
 
         # ==========================
 
@@ -188,8 +188,8 @@ class Ui_MainWindow(object):
         self.menuTungxucxac.setTitle(_translate("MainWindow", "Tungxucxac"))
 
         # === Thêm text cho widget mới ===
-        self.label_balance_text.setText(_translate("MainWindow", "Số dư:"))
-        self.label_balance_value.setText(_translate("MainWindow", "1,000 $"))
+        self.label_sodu_text.setText(_translate("MainWindow", "Số dư:"))
+        self.label_sodu_value.setText(_translate("MainWindow", "1,000 $"))
         self.label_bet_text.setText(_translate("MainWindow", "Tiền cược:"))
         self.label_message.setText(_translate("MainWindow", "Chúc bạn may mắn!"))
         # ===============================

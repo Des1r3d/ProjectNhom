@@ -108,7 +108,7 @@
      <string>TUNG XÚC XẮC</string>
     </property>
    </widget>
-   <widget class="QLabel" name="kq">
+   <widget class="QLabel" name="kqtungxucxac">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -139,7 +139,7 @@ vertical-align: middle</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="kq_2">
+   <widget class="QLabel" name="kqtungxucxac_2">
     <property name="geometry">
      <rect>
       <x>470</x>
