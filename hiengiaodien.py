@@ -4,6 +4,7 @@ from giaodien import Ui_MainWindow
 from xuly import *
 
 
+
 class MainWindow(QMainWindow, Ui_MainWindow):
     # Class MainWindow kế thừa cả thuộc tính QMainWindow và Ui_MainWindow
     def __init__(self):  # Hàm khởi tạo để thiết lập cửa sổ
