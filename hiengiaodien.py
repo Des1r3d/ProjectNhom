@@ -31,7 +31,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.label_sodu_value.setText(f"{self.sodu:,.0f} $")    # Cập nhật lại số dư hiển thị
             self.spinBox_bet.setMaximum(max(self.cuoctoithieu, self.sodu))# Cập nhật mức cược tối đa mới
             # Đảm bảo max bet không bao giờ < min bet
-        if ketqua["phasan"]:        # Nếu phá sản
+        if ketqua["phasan"]:        # N
             self.push.setEnabled(False)  # Vô hiệu hóa nút bấm
             self.spinBox_bet.setEnabled(False)  # Vô hiệu hóa ô cược
 
@@ -41,3 +41,6 @@ if __name__ == "__main__":  # Chạy chương trình khi được thực thi tr�
     window = MainWindow()
     window.show()
     app.exec()
+
+
+
